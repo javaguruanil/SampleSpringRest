@@ -1,4 +1,4 @@
-FROM openjdk:11.0.13.0.8
+FROM scratch
 EXPOSE 9009 
 ADD target/springRest.jar   springRest.jar
 ENTRYPOINT ["java", "-jar", "/springRest.jar"]
