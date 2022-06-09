@@ -8,6 +8,6 @@ public class ResourceClass {
 
 	@GetMapping(value = "/getInfo")
 	public String getData() {
-		return "Enjoy the Docker Jenkins !!!!!!";
+		return "Enjoy the Docker Jenkins along with GITHUB GITHUB !!!!!!";
 	}
 }
